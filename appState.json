@@ -40,7 +40,7 @@
             "id": "8d2c963e-af7e-4623-bd6c-b8e3407a31d6",
             "name": "Test event1",
             "functionId": "b0236bcf-9e0a-4ef7-a08f-31a3577c96f3",
-            "event": "{\r\n    \"receiver\": \"+918766820623\",\r\n    \"sender\": \"MySMS\",\r\n    \"message\": \"Hello from SMS_Sender\"\r\n}",
+            "event": "{\r\n    \"receiver\": \"+12015006414\",\r\n    \"sender\": \"MySMS\",\r\n    \"message\": \"Hello from SMS_Sender\"\r\n}",
             "eventTemplate": "hello-world"
           },
           "4cef6b3a-94ac-4f17-a6dc-bff96845f752": {
@@ -50,10 +50,13 @@
             "event": "{\r\n    \"receiver\": \"+918766820623\",\r\n    \"sender\": \"MySMS\",\r\n    \"message\": \"Hello from SMS_Sender2\"\r\n}",
             "eventTemplate": "hello-world"
           }
+        },
+        "cursor": {
+          "lineNumber": 24,
+          "column": 14
         }
       }
     },
-    "rootNode": "6b6404d4-9c13-4d9c-a553-eaef3bebe347",
     "openFiles": [
       "b0236bcf-9e0a-4ef7-a08f-31a3577c96f3"
     ],
@@ -90,7 +93,7 @@
       }
     },
     "customTemplate": {
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -107,13 +110,14 @@
       "dependencies": {
         "aws-sdk": {
           "name": "aws-sdk",
-          "language": "javascript",
+          "language": "nodejs",
           "version": "2.176.0",
           "dev": true,
           "notRemovable": false
         }
       }
-    }
+    },
+    "rootNode": "6b6404d4-9c13-4d9c-a553-eaef3bebe347"
   },
   "PROJECT_META": {
     "projectName": "SendSms",
@@ -121,8 +125,9 @@
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
+    "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1582536533823
+    "lastSave": 1589438311391
   },
   "VCS_STATE": {
     "provider": "GitHub",
