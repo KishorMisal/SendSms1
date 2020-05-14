@@ -40,7 +40,7 @@
             "id": "8d2c963e-af7e-4623-bd6c-b8e3407a31d6",
             "name": "Test event1",
             "functionId": "b0236bcf-9e0a-4ef7-a08f-31a3577c96f3",
-            "event": "{\r\n    \"receiver\": \"+12015006414\",\r\n    \"sender\": \"MySMS\",\r\n    \"message\": \"Hello from SMS_Sender\"\r\n}",
+            "event": "{\r\n    \"receiver\": \"+12015006414\",\r\n    \"sender\": \"MySMS\",\r\n    \"message\": \"Hello from SMS_Sender TR\"\r\n}",
             "eventTemplate": "hello-world"
           },
           "4cef6b3a-94ac-4f17-a6dc-bff96845f752": {
@@ -52,8 +52,8 @@
           }
         },
         "cursor": {
-          "lineNumber": 24,
-          "column": 14
+          "lineNumber": 1,
+          "column": 1
         }
       }
     },
@@ -127,7 +127,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1589438311391
+    "lastSave": 1589439099097
   },
   "VCS_STATE": {
     "provider": "GitHub",
